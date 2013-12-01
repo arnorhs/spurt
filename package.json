@@ -1,7 +1,7 @@
 {
   "name": "spurt",
-  "version": "0.0.0",
-  "description": "a function to iterate over asynchronous calls synchronously",
+  "version": "0.0.1",
+  "description": "A function to iterate over items with asynchronous calls synchronously.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -21,5 +21,16 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "~1.14.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnorhs/spurt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arnorhs/spurt/issues"
   }
 }

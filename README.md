@@ -1,7 +1,6 @@
 # spurt
 
-A super simple function to loop over items accepting a callback, so asynchronous callbacks
-will be executed in order.
+A function to iterate over items with asynchronous calls synchronously.
 
 ### Usage:
 
