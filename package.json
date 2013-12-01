@@ -1,0 +1,25 @@
+{
+  "name": "spurt",
+  "version": "0.0.0",
+  "description": "a function to iterate over asynchronous calls synchronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "iterate",
+    "iterator",
+    "async",
+    "sync",
+    "asynchronous",
+    "calls",
+    "runner",
+    "run",
+    "queue"
+  ],
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  }
+}
