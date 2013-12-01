@@ -21,9 +21,10 @@ spurt(items, function(item, next) {
         if (!err) {
             next();
         }
-    }, function() { // all rows done
-        console.log("Inserted all the rows");
     });
+, function() { // all rows done
+    console.log("Inserted all the rows");
+});
 ```
 
 *Pull requests welcome*
