@@ -22,7 +22,7 @@ spurt(items, function(item, next) {
             next();
         }
     });
-, function() { // all rows done
+}, function() { // all rows done
     console.log("Inserted all the rows");
 });
 ```
